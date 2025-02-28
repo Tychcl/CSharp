@@ -17,23 +17,23 @@ namespace _15pr
 {
     public partial class MainWindow : Window
     {
+        private List<Page> PL = new List<Page>() { new Pages.Stopwatch(), new Pages.MinWatch() };
         public MainWindow()
         {
             InitializeComponent();
+
             OpenPages(pages.stopwatch);
         }
 
         public enum pages
         {
-            stopwatch
+            stopwatch,
+            MinWatch
         }
 
         public void OpenPages(pages _page)
         {
-            if (_page == pages.stopwatch)
-            {
-                frame.Navigate(new Pages.Stopwatch());
-            }
+            frame.Navigate(PL[(int)_page]);
         }
 
         private void GoTimer(object sender, RoutedEventArgs e)
@@ -43,7 +43,10 @@ namespace _15pr
 
         private void GoSec(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"{frame.Content as Page}");
+            if (!(frame.Content as Page is Pages.Stopwatch))
+            {
+                //frame.Navigate(SW);
+            }
         }
     }
 }

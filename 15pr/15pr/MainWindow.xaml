@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_15pr"
         mc:Ignorable="d"
-        Title="TimeLord" ResizeMode="NoResize" Background="DarkCyan">
+        Title="TimeLord" Width="320" MinWidth="320" Background="DarkCyan">
     <Grid>
-        <Frame x:Name="frame" NavigationUIVisibility="Hidden"/>
+        <StackPanel Width="300">
+            <Frame x:Name="frame" NavigationUIVisibility="Hidden" Width="300"/>
+            <Grid>
+                <Button Content="Секундомер" Click="GoSec" HorizontalAlignment="Left" Margin="0,15,0,0" Width="150"/>
+                <Button Content="Таймер" Click="GoTimer" Margin="0,15,0,0" HorizontalAlignment="Right" Width="150"/>
+            </Grid>
+        </StackPanel>
     </Grid>
 </Window>
