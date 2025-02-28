@@ -1,0 +1,15 @@
+﻿<Window x:Class="_11pr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_11pr"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="350" Height="350" MinWidth="300" Width="300">
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name="sep" Height="20" KeyDown="go"/>
+            <ListBox x:Name="list" MinHeight="315"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\wpfapp1\\classes\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\classes\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|c:\\users\\administrator\\desktop\\ych\\pr\\0101oshepkov\\6pr\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\wpfapp1\\classes\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE90AE-2864-405C-85EB-9F4AB9F0F719}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\classes\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TV.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\Classes\\TV.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Classes\\TV.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\Classes\\TV.cs",
+              "RelativeToolTip": "WpfApp1\\Classes\\TV.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDsAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:43:44.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-07T12:03:18.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Channel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\Classes\\Channel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Classes\\Channel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\Classes\\Channel.cs",
+              "RelativeToolTip": "WpfApp1\\Classes\\Channel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:43:42.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\6pr\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:05:47.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

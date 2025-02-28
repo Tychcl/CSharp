@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\pr\\13pr\\Int\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7DF4C3-8982-489E-885D-770863C439A4}|Int\\Int.csproj|c:\\users\\administrator\\desktop\\pr\\13pr\\int\\int\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D7DF4C3-8982-489E-885D-770863C439A4}|Int\\Int.csproj|solutionrelative:int\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\pr\\13pr\\Int\\Int\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Int\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\pr\\13pr\\Int\\Int\\MainWindow.xaml",
+              "RelativeToolTip": "Int\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T13:47:24.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
