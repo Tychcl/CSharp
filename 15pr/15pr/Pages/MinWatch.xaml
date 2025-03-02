@@ -8,12 +8,12 @@
       Title="MinWatch">
     <Grid>
         <StackPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <TextBox x:Name="h" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
+            <StackPanel x:Name="TB" Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox x:Name="hoursTB" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
                 <Label Content=":" Foreground="White" FontSize="48" BorderThickness="0" Background="DarkCyan" FontWeight="Medium" Padding="0,0,0,0"/>
-                <TextBox x:Name="m" MaxLength="2" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
+                <TextBox x:Name="minuteTB" MaxLength="2" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
                 <Label Content=":" Foreground="White" FontSize="48" BorderThickness="0" Background="DarkCyan" FontWeight="Medium" Padding="0,0,0,0"/>
-                <TextBox x:Name="s" MaxLength="2" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
+                <TextBox x:Name="secondTB" MaxLength="2" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
             </StackPanel>
             <Button x:Name="start" Click="StartStopwatch" Content="Начать" Width="150" Height="30" FontSize="20" Background="White" Foreground="DarkCyan" />
         </StackPanel>

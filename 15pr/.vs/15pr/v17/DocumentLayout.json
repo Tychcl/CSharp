@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\",
+  "WorkspaceRootPath": "D:\\prak\\15pr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|c:\\users\\administrator\\desktop\\ych\\pr\\0101oshepkov\\15pr\\15pr\\pages\\minwatch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|d:\\prak\\15pr\\15pr\\pages\\minwatch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|solutionrelative:15pr\\pages\\minwatch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\pages\\minwatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|d:\\prak\\15pr\\15pr\\pages\\minwatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|solutionrelative:15pr\\pages\\minwatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\pages\\stopwatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|D:\\prak\\15pr\\15pr\\pages\\stopwatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|solutionrelative:15pr\\pages\\stopwatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|c:\\users\\administrator\\desktop\\ych\\pr\\0101oshepkov\\15pr\\15pr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|D:\\prak\\15pr\\15pr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|solutionrelative:15pr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|D:\\prak\\15pr\\15pr\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|solutionrelative:15pr\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|D:\\prak\\15pr\\15pr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{33E780B5-B3C1-476F-B912-AF21645E84A0}|15pr\\15pr.csproj|solutionrelative:15pr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -34,23 +34,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MinWatch.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Pages\\MinWatch.xaml",
+              "DocumentMoniker": "D:\\prak\\15pr\\15pr\\Pages\\MinWatch.xaml",
               "RelativeDocumentMoniker": "15pr\\Pages\\MinWatch.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Pages\\MinWatch.xaml",
+              "ToolTip": "D:\\prak\\15pr\\15pr\\Pages\\MinWatch.xaml",
               "RelativeToolTip": "15pr\\Pages\\MinWatch.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-28T08:03:18.212Z",
@@ -60,9 +52,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Stopwatch.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Pages\\Stopwatch.xaml",
+              "DocumentMoniker": "D:\\prak\\15pr\\15pr\\Pages\\Stopwatch.xaml",
               "RelativeDocumentMoniker": "15pr\\Pages\\Stopwatch.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Pages\\Stopwatch.xaml",
+              "ToolTip": "D:\\prak\\15pr\\15pr\\Pages\\Stopwatch.xaml",
               "RelativeToolTip": "15pr\\Pages\\Stopwatch.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-27T16:17:56.211Z",
@@ -72,11 +64,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\prak\\15pr\\15pr\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "15pr\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\prak\\15pr\\15pr\\MainWindow.xaml.cs",
               "RelativeToolTip": "15pr\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIAxwCgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T15:45:04.296Z",
               "EditorCaption": ""
@@ -85,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Interval.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Interval.cs",
+              "DocumentMoniker": "D:\\prak\\15pr\\15pr\\Interval.cs",
               "RelativeDocumentMoniker": "15pr\\Interval.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Interval.cs",
+              "ToolTip": "D:\\prak\\15pr\\15pr\\Interval.cs",
               "RelativeToolTip": "15pr\\Interval.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,12 +89,13 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\prak\\15pr\\15pr\\MainWindow.xaml",
               "RelativeDocumentMoniker": "15pr\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\MainWindow.xaml",
+              "ToolTip": "D:\\prak\\15pr\\15pr\\MainWindow.xaml",
               "RelativeToolTip": "15pr\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T11:49:26.488Z"
+              "WhenOpened": "2025-02-27T11:49:26.488Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -114,11 +107,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MinWatch.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Pages\\MinWatch.xaml.cs",
+              "DocumentMoniker": "D:\\prak\\15pr\\15pr\\Pages\\MinWatch.xaml.cs",
               "RelativeDocumentMoniker": "15pr\\Pages\\MinWatch.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\15pr\\15pr\\Pages\\MinWatch.xaml.cs",
+              "ToolTip": "D:\\prak\\15pr\\15pr\\Pages\\MinWatch.xaml.cs",
               "RelativeToolTip": "15pr\\Pages\\MinWatch.xaml.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAjwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwC4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T11:34:18.489Z",
               "EditorCaption": ""

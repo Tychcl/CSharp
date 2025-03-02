@@ -42,6 +42,13 @@ namespace _15pr.Pages
             if (minutes < 10) s_min = "0" + minutes.ToString();
             string s_hours = hours.ToString();
             if (hours < 10) s_hours = "0" + hours.ToString();
+            hoursTB.Text = s_hours;
+            minuteTB.Text = s_min;
+            secondTB.Text = s_sec;
+            if (full_second == 0)
+            {
+                StartStopwatch(null, null);
+            }
             //time.Text = $"{s_hours}:{s_min}:{s_sec}";
         }
 
@@ -49,7 +56,14 @@ namespace _15pr.Pages
         {
             if (!start_stopwatch)
             {
-                full_second = 0;
+                full_second = (int)((int.Parse(hoursTB.Text) * 60 * 60) + (int.Parse(minuteTB.Text) * 60) + int.Parse(secondTB.Text));
+                if(full_second == 0)
+                {
+                    return;
+                }
+                hoursTB.IsReadOnly = true;
+                minuteTB.IsReadOnly = true;
+                secondTB.IsReadOnly = true;
                 Timer.Start();
                 start_stopwatch = true;
                 start.Content = "Стоп";
@@ -59,6 +73,9 @@ namespace _15pr.Pages
                 Timer.Stop();
                 start_stopwatch = false;
                 start.Content = "Начать";
+                hoursTB.IsReadOnly = false;
+                minuteTB.IsReadOnly = false;
+                secondTB.IsReadOnly = false;
             }
         }
 
@@ -66,9 +83,29 @@ namespace _15pr.Pages
         {
             TextBox sen = (s as TextBox);
             sen.Text = Regex.Replace(sen.Text, @"[^\d]", "");
-            if (sen.Name != "h" & int.TryParse(sen.Text, out int v))
+            if (sen.Name != "hoursTB" && int.TryParse(sen.Text, out int v) && v >= 60)
             {
-
+                if (sen.Name == "secondTB")
+                {
+                    int sec = int.Parse(sen.Text) - 60;
+                    int min = int.Parse(minuteTB.Text);
+                    sen.Text = sec < 10 ? "0" + sec.ToString() : sec.ToString();
+                    if (min+1 >= 60)
+                    {
+                        minuteTB.Text = min+1 - 60 < 10 ? "0" + (min + 1 - 60).ToString() : (min + 1 - 60).ToString();
+                        hoursTB.Text = (int.Parse(hoursTB.Text) + 1).ToString();
+                    }
+                    else
+                    {
+                        minuteTB.Text = min + 1 < 10 ? "0" + (min + 1).ToString() : (min + 1).ToString();
+                    }
+                }
+                if (sen.Name == "minuteTB")
+                {
+                    int min = int.Parse(sen.Text) - 60;
+                    sen.Text = min < 10 ? "0" + min.ToString() : min.ToString();
+                    hoursTB.Text = (int.Parse(hoursTB.Text) + 1).ToString();
+                }
             } 
         }
     }

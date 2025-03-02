@@ -17,7 +17,6 @@ namespace _15pr
 {
     public partial class MainWindow : Window
     {
-        private List<Page> PL = new List<Page>() { new Pages.Stopwatch(), new Pages.MinWatch() };
         public MainWindow()
         {
             InitializeComponent();
@@ -33,7 +32,14 @@ namespace _15pr
 
         public void OpenPages(pages _page)
         {
-            frame.Navigate(PL[(int)_page]);
+            if (_page == pages.stopwatch)
+            {
+                frame.Navigate(new Pages.Stopwatch());
+            }
+            if (_page == pages.MinWatch)
+            {
+                frame.Navigate(new Pages.MinWatch());
+            }
         }
 
         private void GoTimer(object sender, RoutedEventArgs e)
