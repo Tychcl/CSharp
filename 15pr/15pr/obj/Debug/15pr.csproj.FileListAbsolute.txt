@@ -34,3 +34,5 @@ D:\prak\15pr\15pr\obj\Debug\15pr.exe
 D:\prak\15pr\15pr\obj\Debug\15pr.pdb
 D:\prak\15pr\15pr\obj\Debug\Pages\MinWatch.g.cs
 D:\prak\15pr\15pr\obj\Debug\Pages\MinWatch.baml
+C:\Users\Administrator\Desktop\Ych\PR\0101oshepkov\15pr\15pr\obj\Debug\Pages\MinWatch.g.cs
+C:\Users\Administrator\Desktop\Ych\PR\0101oshepkov\15pr\15pr\obj\Debug\Pages\MinWatch.baml

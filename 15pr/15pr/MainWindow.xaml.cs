@@ -38,15 +38,12 @@ namespace _15pr
 
         private void GoTimer(object sender, RoutedEventArgs e)
         {
-
+            OpenPages(pages.MinWatch);
         }
 
         private void GoSec(object sender, RoutedEventArgs e)
         {
-            if (!(frame.Content as Page is Pages.Stopwatch))
-            {
-                //frame.Navigate(SW);
-            }
+            OpenPages(pages.stopwatch);
         }
     }
 }
