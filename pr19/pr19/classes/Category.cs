@@ -24,8 +24,8 @@ namespace pr19.Classes
         {
             List<Category> allCategories = new List<Category>();
             
-            allCategories.Add(new Category(1, "Для Кабиннета", "D:\\МДК01.01\\pr19\\pr19\\image\\kabin1.jpg"));
-            allCategories.Add(new Category(2, "Для гостинной", "D:\\МДК01.01\\pr19\\pr19\\image\\gost1.jpg"));
+            allCategories.Add(new Category(1, "Кошки", "D:\\МДК01.01\\pr19\\pr19\\image\\kabin1.jpg"));
+            allCategories.Add(new Category(2, "Собаки", "D:\\МДК01.01\\pr19\\pr19\\image\\gost1.jpg"));
 
             return allCategories;
         }
