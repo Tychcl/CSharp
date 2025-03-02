@@ -1,0 +1,17 @@
+D:\prak\pr17\pr17\bin\Debug\pr17.exe.config
+D:\prak\pr17\pr17\bin\Debug\pr17.exe
+D:\prak\pr17\pr17\bin\Debug\pr17.pdb
+D:\prak\pr17\pr17\obj\Debug\pr17.csproj.AssemblyReference.cache
+D:\prak\pr17\pr17\obj\Debug\Layouts\Main.g.cs
+D:\prak\pr17\pr17\obj\Debug\MainWindow.g.cs
+D:\prak\pr17\pr17\obj\Debug\App.g.cs
+D:\prak\pr17\pr17\obj\Debug\pr17_MarkupCompile.cache
+D:\prak\pr17\pr17\obj\Debug\pr17_MarkupCompile.lref
+D:\prak\pr17\pr17\obj\Debug\Layouts\Main.baml
+D:\prak\pr17\pr17\obj\Debug\MainWindow.baml
+D:\prak\pr17\pr17\obj\Debug\pr17.g.resources
+D:\prak\pr17\pr17\obj\Debug\pr17.Properties.Resources.resources
+D:\prak\pr17\pr17\obj\Debug\pr17.csproj.GenerateResource.cache
+D:\prak\pr17\pr17\obj\Debug\pr17.csproj.CoreCompileInputs.cache
+D:\prak\pr17\pr17\obj\Debug\pr17.exe
+D:\prak\pr17\pr17\obj\Debug\pr17.pdb
