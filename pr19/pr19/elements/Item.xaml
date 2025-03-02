@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="pr19.Elements.Item"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:pr19.Elements"
+             mc:Ignorable="d" >
+
+    <Grid Width="200">
+        <Grid Margin="15" Background="#7FFFFFFF" Height="300" Width="170">
+            <Image x:Name="image" Margin="5,5,5,120" Stretch="UniformToFill" Source="/image/background.png"/>
+            <Label x:Name="price" Content="3000 р" Margin="10,180,10,95" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="Black"/>
+            <Label x:Name="name" Content="Наименование" Margin="10,210,10,65" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="Black"/>
+            <Button Click="less" Content="-" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="25" Margin="10,0,0,40"/>
+            <TextBox x:Name="countItem" Text="0" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="45,0,45,40" Width="70" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Click="more" Content="+" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="30" Height="25" Margin="0,0,10,40"/>
+            <Button Click="buy" VerticalAlignment="Bottom" Content="В КОРЗИНУ" Margin="10,0,10,10" Height="25"/>
+        </Grid>
+    </Grid>
+</UserControl>
+
