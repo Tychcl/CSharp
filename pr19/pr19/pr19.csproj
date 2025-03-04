@@ -147,5 +147,20 @@
   <ItemGroup>
     <Resource Include="image\mite.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\lak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\KD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\CD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\GC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\GD.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

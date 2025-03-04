@@ -26,7 +26,7 @@ namespace pr19.Elements
         {
             InitializeComponent();
             if (item != null) {
-                string gg = MainWindow.mainWindow.loc.Replace("\\bin\\Debug", "\\image\\" + item.Src);
+                string gg = MainWindow.mainWindow.loc + "\\image\\" + item.Src;
                 if (File.Exists(gg))
                     image.Source = new BitmapImage(new Uri(gg));
                 else

@@ -38,17 +38,20 @@ namespace pr19.Pages
             items.Add(new Item("Шлейка", 1000, "shlei.jpg", 2));
             
             items.Add(new Item("Мята", 300, "mite.jpg", 1));
-            items.Add(new Item("", 34000, "kresloKab.jpg", 2));
+            items.Add(new Item("Лакомства", 300, "lak.jpg", 2));
 
-            items.Add(new Item("Корм", 150, "koverGost.jpg", 1));
-            items.Add(new Item("Корм", 150, "tvGost.jpg", 2));
+            items.Add(new Item("Корм", 150, "CD.jpg", 1));
+            items.Add(new Item("Корм", 150, "KD.jpg", 2));
+
+            items.Add(new Item("Игрушка", 500, "GC.jpg", 1));
+            items.Add(new Item("Игрушка", 500, "GD.jpg", 2));
             //вызываем метод генерации интерфейса
             LoadItems();
             bascet.Content = $"Корзина ({MainWindow.Cost})";
         }
         public void LoadItems() {
             parent.Children.Clear(); // очищаем элемент parent
-            foreach (Item item in items) {
+            foreach (Item item in items.FindAll(x => x.Category == id)) {
                 //добавляем элемент
 
             parent.Children.Add(new Elements.Item(item));

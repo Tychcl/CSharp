@@ -1,0 +1,17 @@
+D:\prak\pr20\pr20\obj\Debug\pr20.csproj.AssemblyReference.cache
+D:\prak\pr20\pr20\obj\Debug\MainWindow.g.cs
+D:\prak\pr20\pr20\obj\Debug\Pages\Settings.g.cs
+D:\prak\pr20\pr20\obj\Debug\App.g.cs
+D:\prak\pr20\pr20\obj\Debug\pr20_MarkupCompile.cache
+D:\prak\pr20\pr20\obj\Debug\pr20_MarkupCompile.lref
+D:\prak\pr20\pr20\bin\Debug\pr20.exe.config
+D:\prak\pr20\pr20\bin\Debug\pr20.exe
+D:\prak\pr20\pr20\bin\Debug\pr20.pdb
+D:\prak\pr20\pr20\obj\Debug\MainWindow.baml
+D:\prak\pr20\pr20\obj\Debug\Pages\Settings.baml
+D:\prak\pr20\pr20\obj\Debug\pr20.g.resources
+D:\prak\pr20\pr20\obj\Debug\pr20.Properties.Resources.resources
+D:\prak\pr20\pr20\obj\Debug\pr20.csproj.GenerateResource.cache
+D:\prak\pr20\pr20\obj\Debug\pr20.csproj.CoreCompileInputs.cache
+D:\prak\pr20\pr20\obj\Debug\pr20.exe
+D:\prak\pr20\pr20\obj\Debug\pr20.pdb

@@ -31,7 +31,7 @@
 
             <Image Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Source="/image/vk.png"/>
             <Image Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,10,0,0" Source="/image/telegramm.png"/>
-            <Label Content="Мебель по карману" Margin="140,5,140,5" Foreground="#FFFFFF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+            <Label Content="Зоомагазин" Margin="140,5,140,5" Foreground="#FFFFFF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"/>
             </Grid>
 
         <ScrollViewer Margin="5,55,5,5" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
