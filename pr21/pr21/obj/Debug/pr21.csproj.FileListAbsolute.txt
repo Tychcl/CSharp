@@ -7,3 +7,17 @@ D:\prak\pr21\pr21\obj\Debug\App.g.cs
 D:\prak\pr21\pr21\obj\Debug\pr21_MarkupCompile.cache
 D:\prak\pr21\pr21\obj\Debug\pr21_MarkupCompile.lref
 D:\prak\pr21\pr21\obj\Debug\pr21_Content.g.cs
+D:\prak\pr21\pr21\bin\Debug\pr21.exe.config
+D:\prak\pr21\pr21\bin\Debug\pr21.exe
+D:\prak\pr21\pr21\bin\Debug\pr21.pdb
+D:\prak\pr21\pr21\obj\Debug\Elements\Item.baml
+D:\prak\pr21\pr21\obj\Debug\MainWindow.baml
+D:\prak\pr21\pr21\obj\Debug\Pages\Add.baml
+D:\prak\pr21\pr21\obj\Debug\Pages\Main.baml
+D:\prak\pr21\pr21\obj\Debug\pr21.g.resources
+D:\prak\pr21\pr21\obj\Debug\pr21.Properties.Resources.resources
+D:\prak\pr21\pr21\obj\Debug\pr21.csproj.GenerateResource.cache
+D:\prak\pr21\pr21\obj\Debug\pr21.csproj.CoreCompileInputs.cache
+D:\prak\pr21\pr21\obj\Debug\pr21.exe
+D:\prak\pr21\pr21\obj\Debug\pr21.pdb
+D:\prak\pr21\pr21\bin\Debug\abobs.accdb

@@ -33,7 +33,7 @@ namespace pr21
         {
             InitializeComponent();
             init = this;
-            
+            OpenPages(pages.main);
         }
         public void OpenPages(pages _pages)
         {

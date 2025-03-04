@@ -21,14 +21,14 @@ namespace pr21.Classes
             {
 
                 DocumentContext newDocument = new DocumentContext();
-                Id = dataDocuments.GetInt32(0);
-                Src = dataDocuments.GetString(1);
-                Name = dataDocuments.GetString(2);
-                User = dataDocuments.GetString(3);
-                Id_document = dataDocuments.GetInt32(4);
-                Date = dataDocuments.GetDateTime(5);
-                Status = dataDocuments.GetInt32(6);
-                Vector = dataDocuments.GetString(7);
+                newDocument.Id = dataDocuments.GetInt32(0);
+                newDocument.Src = dataDocuments.GetString(1);
+                newDocument.Name = dataDocuments.GetString(2);
+                newDocument.User = dataDocuments.GetString(3);
+                newDocument.Id_document = Convert.ToInt32(dataDocuments.GetString(4));
+                newDocument.Date = dataDocuments.GetDateTime(5);
+                newDocument.Status = dataDocuments.GetInt32(6);
+                newDocument.Vector = dataDocuments.GetString(7);
                 allDocuments.Add(newDocument);
 
             }
@@ -54,7 +54,7 @@ namespace pr21.Classes
                                             "Set " +
                                             $"[Изображение] = '{this.Src}', " +
                                             $"[Наименование] = '{this.Name}', " +
-                                            $"[Отвественный] = '{this.User}', " +
+                                            $"[Ответственный] = '{this.User}', " +
                                             $"[Код документа] = '{this.Id_document}', " +
                                             $"[Дата поступления] = '{this.Date.ToString("dd.MM.yyyy")}', " +
                                             $"[Статус] = '{this.Status}', " +
@@ -70,7 +70,7 @@ namespace pr21.Classes
                                         "[Документы] " +
                                         $"([Изображение], " +
                                         $"[Наименование], " +
-                                        $"[Отвественный], " +
+                                        $"[Ответственный], " +
                                         $"[Код документа], " +
                                         $"[Дата поступления], " +
                                         $"[Статус], " +

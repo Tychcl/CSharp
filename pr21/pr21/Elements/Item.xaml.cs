@@ -24,18 +24,18 @@ namespace pr21.Elements
     {
         DocumentContext Document;
 
-        public Item(DocumentContext Document)
+        public Item(DocumentContext Doc)
         {
             InitializeComponent();
-            img.Source = new BitmapImage(new Uri(Document.Src));
-            lName.Content = Document.Name;
-            lUser.Content = $"Ответственный: {Document.User}";
-            lCode.Content = $"Код документа: {Document.Id_document}";
-            lDate.Content = $"Дата поступления {Document.Date.ToString("dd.MM.yyyy")}";
-            lStatus.Content = Document.Status == 0 ? $"Статьс: входящий" : $"Статус: исходящий";
-            lDirect.Content = $"Направлениe: {Document.Vector}";
+            img.Source = new BitmapImage(new Uri($@"{Doc.Src}"));
+            lName.Content = Doc.Name;
+            lUser.Content = $"Ответственный: {Doc.User}";
+            lCode.Content = $"Код документа: {Doc.Id_document}";
+            lDate.Content = $"Дата поступления {Doc.Date.ToString("dd.MM.yyyy")}";
+            lStatus.Content = Doc.Status == 0 ? $"Статьс: входящий" : $"Статус: исходящий";
+            lDirect.Content = $"Направлениe: {Doc.Vector}";
             // Сохраняем документ для изменения или удаления
-            this.Document = Document;
+            this.Document = Doc;
 
         }
         private void EditDocument(object sender, RoutedEventArgs e)

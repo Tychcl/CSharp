@@ -125,7 +125,7 @@
     <Resource Include="image\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database.accdb.accdb">
+    <Content Include="abobs.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

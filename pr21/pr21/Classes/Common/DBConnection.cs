@@ -10,7 +10,7 @@ namespace pr21.Classes.Common
 {
     public class DBConnection
     {
-        public static readonly string Path = @"C:\Users\aooshchepkov\Desktop\Pup.accdb";
+        public static readonly string Path = @"D:\prak\pr21\pr21\abobs.accdb";
 
         public static OleDbConnection Connection()
         {

@@ -26,30 +26,28 @@
             </Grid>
         </Grid>
         <StackPanel Orientation="Horizontal" Margin="0,80,0,0">
-            <StackPanel.FocusVisualStyle>
-                
-            </StackPanel.FocusVisualStyle>
             <StackPanel>
                 <Image x:Name="img" Source="/Image/icon-black.png" Height="150" Width="150" />
                 <Button Click="SelectImage" Content="Выбрать картинку" Margin="10,0,10,0" Height="30"/>
             </StackPanel>
             <StackPanel Width="630" Margin="10,0,10,0">
                 <Label Content="Наименование"/>
-                <TextBox />
+                <TextBox x:Name="tb_name"/>
                 <Label Content="Ответственный"/>
-                <TextBox />
+                <TextBox x:Name="tb_user"/>
                 <Label Content="Код документа"/>
-                <TextBox />
+                <TextBox x:Name="tb_id"/>
                 <Label Content="Дата поступления"/>
-                <TextBox />
+                <TextBox x:Name="tb_date"/>
                 <Label Content="Статус"/>
-                <ComboBox>
-                    
+                <ComboBox x:Name="tb_status">
+                    <TextBlock>Входящий</TextBlock>
+                    <TextBlock>Исходящий</TextBlock>
                 </ComboBox>
                 <Label Content="Направление"/>
                 <StackPanel Orientation="Horizontal">
-                    <TextBox Width="540"/>
-                    <Button Content="Сохранить" Margin="10,0,0,0" Padding="10,2,10,2" Width="80" Height="22"/>
+                    <TextBox Width="540" x:Name="tb_vector"/>
+                    <Button Content="Сохранить" x:Name="tb_btnAdd" Click="AddDocument" Margin="10,0,0,0" Padding="10,2,10,2" Width="80" Height="22"/>
                 </StackPanel>
             </StackPanel>
         </StackPanel>
