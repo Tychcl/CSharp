@@ -22,23 +22,26 @@ namespace pr19.Elements
     /// </summary>
     public partial class cat : UserControl
     {
+        int id;
         public cat(Classes.Category category)
         {
             InitializeComponent(); 
             if (category != null)
             {
-                if (File.Exists(Directory.GetCurrentDirectory() + "/image/" + category.Src))
+                string gg = MainWindow.mainWindow.loc + "\\image\\" + category.Src;
+                if (File.Exists(gg))
                     image.Source = new BitmapImage(new Uri("pack://application:,,,/pr19;component/image/" + category.Src));
                 else
                     image.Source = new BitmapImage(new Uri("pack://application:,,,/pr19;component/image/background.png"));
                 categoryName.Content = category.Name;
             }
+            id = category.Id;
         }
         private void OpenCategory(object sender, MouseButtonEventArgs e)
         {
             
             MainWindow.ActiveCategory = Classes.Category.AllCategories().Find(x => x.Name == this.categoryName.Content.ToString());
-            MainWindow.mainWindow.OpenPage(new Pages.Main());
+            MainWindow.mainWindow.OpenPage(new Pages.Main(id));
         }
     }
 }

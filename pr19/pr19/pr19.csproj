@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -126,22 +126,26 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\divanGost.jpg" />
-    <Resource Include="image\gost1.jpg" />
-    <Resource Include="image\hkafKab.jpg" />
-    <Resource Include="image\instagram.png" />
-    <Resource Include="image\kabin1.jpg" />
-    <Resource Include="image\kabina2.jpg" />
-    <Resource Include="image\koverGost.jpg" />
-    <Resource Include="image\kresloKab.jpg" />
-    <Resource Include="image\shkaf.jpg" />
-    <Resource Include="image\stolKab.jpg" />
     <Resource Include="image\telegramm.png" />
-    <Resource Include="image\tvGost.jpg" />
     <Resource Include="image\vk.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="image\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Dog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\zil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\shlei.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\mite.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

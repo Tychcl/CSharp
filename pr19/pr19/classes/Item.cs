@@ -11,8 +11,8 @@ namespace pr19.Classes
         public string Name { get; set; }
         public int Price { get; set; }
         public string Src { get; set; }
-        public string Category { get; set; }
-        public Item(string Name, int Price, string Src, string Category)
+        public int Category { get; set; }
+        public Item(string Name, int Price, string Src, int Category)
         {
             this.Name = Name;
             this.Price = Price;

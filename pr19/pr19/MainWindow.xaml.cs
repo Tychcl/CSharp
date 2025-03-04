@@ -31,7 +31,7 @@ namespace pr19
 
             //открываем страницу
             mainWindow = this;
-            loc = System.IO.Directory.GetCurrentDirectory();
+            loc  = System.IO.Directory.GetCurrentDirectory().Replace("bin\\Debug", "");
             OpenPage(new Pages.Category());
 
 

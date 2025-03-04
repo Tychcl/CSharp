@@ -24,18 +24,24 @@ namespace pr19.Pages
     {
         public static Main main;
         public List<Classes.Item> items = new List<Classes.Item>();
-        public Main()
+        public int id;
+        public Main(int i)
         {
             InitializeComponent();
+            id = i;
             main = this;
             //добавляем элемент в коллекцию
-            items.Add(new Item("Шакаф", 20000, "shkaf.jpg", "Для гостинной"));
-            items.Add(new Item("Диван", 65000, "divanGost.jpg", "Для гостинной"));
-            items.Add(new Item("Стол", 17000, "stolKab.jpg", "Для Кабинета")); 
-            items.Add(new Item("Шкаф", 70000, "hkafKab.jpg", "Для Кабинета"));
-            items.Add(new Item("Кресло", 34000, "kresloKab.jpg", "Для Кабинета"));
-            items.Add(new Item("Ковер", 15000, "koverGost.jpg", "Для гостинной"));
-            items.Add(new Item("Телевизор", 105000, "tvGost.jpg", "Для гостинной"));
+            items.Add(new Item("Жилки", 50, "zil.jpg", 1));
+            items.Add(new Item("Жилки", 50, "zil.jpg", 2));
+
+            items.Add(new Item("Шлейка", 1000, "shlei.jpg", 1));
+            items.Add(new Item("Шлейка", 1000, "shlei.jpg", 2));
+            
+            items.Add(new Item("Мята", 300, "mite.jpg", 1));
+            items.Add(new Item("", 34000, "kresloKab.jpg", 2));
+
+            items.Add(new Item("Корм", 150, "koverGost.jpg", 1));
+            items.Add(new Item("Корм", 150, "tvGost.jpg", 2));
             //вызываем метод генерации интерфейса
             LoadItems();
             bascet.Content = $"Корзина ({MainWindow.Cost})";
