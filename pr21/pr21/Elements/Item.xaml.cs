@@ -27,7 +27,14 @@ namespace pr21.Elements
         public Item(DocumentContext Doc)
         {
             InitializeComponent();
-            img.Source = new BitmapImage(new Uri($@"{Doc.Src}"));
+            if (System.IO.File.Exists(Doc.Src))
+            {
+                img.Source = new BitmapImage(new Uri(Doc.Src));
+            }
+            else
+            {
+                img.Source = new BitmapImage(new Uri(MainWindow.init.loc + "\\image\\icon-black.png"));
+            }
             lName.Content = Doc.Name;
             lUser.Content = $"Ответственный: {Doc.User}";
             lCode.Content = $"Код документа: {Doc.Id_document}";

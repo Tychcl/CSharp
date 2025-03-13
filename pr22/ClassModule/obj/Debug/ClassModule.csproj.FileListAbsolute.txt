@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Ych\PR\prak\pr22\ClassModule\bin\Debug\ClassModule.dll
+C:\Users\Administrator\Desktop\Ych\PR\prak\pr22\ClassModule\bin\Debug\ClassModule.pdb
+C:\Users\Administrator\Desktop\Ych\PR\prak\pr22\ClassModule\obj\Debug\ClassModule.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Ych\PR\prak\pr22\ClassModule\obj\Debug\ClassModule.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Ych\PR\prak\pr22\ClassModule\obj\Debug\ClassModule.dll
+C:\Users\Administrator\Desktop\Ych\PR\prak\pr22\ClassModule\obj\Debug\ClassModule.pdb

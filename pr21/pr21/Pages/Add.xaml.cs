@@ -38,6 +38,11 @@ namespace pr21.Pages
                     s_src = Document.Src;
                     img.Source = new BitmapImage(new Uri(s_src));
                 }
+                else
+                {
+                    s_src = MainWindow.init.loc + "\\image\\icon-black.png";
+                    img.Source = new BitmapImage(new Uri(s_src));
+                }
                 tb_name.Text = this.Document.Name;
                 tb_user.Text = this.Document.User;
                 tb_id.Text = this.Document.Id_document.ToString();

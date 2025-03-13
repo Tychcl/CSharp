@@ -21,7 +21,7 @@ namespace pr21
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        public string loc = System.IO.Directory.GetCurrentDirectory().Replace("\\bin\\Debug", "");
         public static MainWindow init;
         public List<DocumentContext> AllDocuments = new DocumentContext().AllDocuments();
         public enum pages

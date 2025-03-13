@@ -41,7 +41,7 @@
                 <TextBox x:Name="tb_date"/>
                 <Label Content="Статус"/>
                 <ComboBox x:Name="tb_status">
-                    <TextBlock>Входящий</TextBlock>
+                    <TextBlock Text="абоба"></TextBlock>
                     <TextBlock>Исходящий</TextBlock>
                 </ComboBox>
                 <Label Content="Направление"/>

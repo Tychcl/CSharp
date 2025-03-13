@@ -1,25 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|solutionrelative:14pr2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|solutionrelative:14pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|c:\\users\\administrator\\desktop\\ych\\pr\\0101oshepkov\\14pr2\\14pr2\\windows\\add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|c:\\users\\administrator\\desktop\\ych\\pr\\prak\\14pr2\\14pr2\\windows\\add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|solutionrelative:14pr2\\windows\\add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\windows\\add.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TEMP\\Rar$DIa3180.49636\\Add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\windows\\add.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|solutionrelative:14pr2\\windows\\add.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\classes\\passport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|solutionrelative:14pr2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|solutionrelative:14pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\classes\\passport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5BCB3CB-5664-4F20-B87C-82C5CD8DE7F0}|14pr2\\14pr2.csproj|solutionrelative:14pr2\\classes\\passport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,60 +45,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "14pr2\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\MainWindow.xaml",
-              "RelativeToolTip": "14pr2\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T05:35:39.722Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "Add.xaml.cs",
+              "DocumentMoniker": "C:\\TEMP\\Rar$DIa3180.49636\\Add.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\TEMP\\Rar$DIa3180.49636\\Add.xaml.cs",
+              "ToolTip": "C:\\TEMP\\Rar$DIa3180.49636\\Add.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\TEMP\\Rar$DIa3180.49636\\Add.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T04:36:27.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "14pr2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\MainWindow.xaml",
+              "RelativeToolTip": "14pr2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-27T05:35:39.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Add.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\Windows\\Add.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\Windows\\Add.xaml",
               "RelativeDocumentMoniker": "14pr2\\Windows\\Add.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\Windows\\Add.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\Windows\\Add.xaml",
               "RelativeToolTip": "14pr2\\Windows\\Add.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-27T05:34:10.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "14pr2\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\MainWindow.xaml.cs",
               "RelativeToolTip": "14pr2\\MainWindow.xaml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwFAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:33:46.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T11:33:46.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Add.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\Windows\\Add.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\Windows\\Add.xaml.cs",
               "RelativeDocumentMoniker": "14pr2\\Windows\\Add.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\Windows\\Add.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\Windows\\Add.xaml.cs",
               "RelativeToolTip": "14pr2\\Windows\\Add.xaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwC8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwE0AAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T11:55:43.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Passport.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\Classes\\Passport.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\Classes\\Passport.cs",
               "RelativeDocumentMoniker": "14pr2\\Classes\\Passport.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\0101oshepkov\\14pr2\\14pr2\\Classes\\Passport.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Ych\\PR\\prak\\14pr2\\14pr2\\Classes\\Passport.cs",
               "RelativeToolTip": "14pr2\\Classes\\Passport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

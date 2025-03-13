@@ -60,7 +60,7 @@ namespace _14pr2.Windows
                 MessageBox.Show("Не правильно указано отчество пользователя");
                 return;
             }
-            if (string.IsNullOrEmpty(Issued.Text) || !Classes.Common.CheckRegex.Match(@"^[а-яА-я]+\s([а-яА-я]+\s)*([а-яА-я]+)$", Issued.Text))
+            if (string.IsNullOrEmpty(Issued.Text) || !Classes.Common.CheckRegex.Match("^[a-яA-я]*$", Issued.Text))
             {
                 MessageBox.Show("Не правильно заполнено поле паспорт выдан");
                 return;
