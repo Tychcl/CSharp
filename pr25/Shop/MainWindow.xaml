@@ -1,0 +1,34 @@
+﻿<Window x:Class="Shop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<Border Panel.ZIndex="1" VerticalAlignment="Top" Height="30" Width="300" BorderThickness="1" BorderBrush="#FF5A5A5A" Margin="5" CornerRadius="5" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Скидка(%):" Width="70" />
+                <TextBox x:Name="sale" Text="" Background="Transparent" HorizontalAlignment="Right" Width="230" BorderThickness="0" MaxLength="3"/>
+            </StackPanel>
+        </Border>-->
+        <!--<Border Panel.ZIndex="1" VerticalAlignment="Top" Height="30" Width="400" BorderThickness="1" BorderBrush="#FF5A5A5A" Margin="5" CornerRadius="5" HorizontalAlignment="Right" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="320"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="Search" Text="" Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center" Grid.Column="0"/>
+                <Border Height="20" Width="70" Grid.Column="1" >
+                    <Button Background="White" Click="SearchBtn_Click" x:Name="SearchBtn"   Content="Найти"/>
+                </Border>
+            </Grid>
+        </Border>-->
+        <ScrollViewer Panel.ZIndex="0" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Hidden">
+            <StackPanel Margin="0,30,0,0" Height="370" VerticalAlignment="Center" x:Name="parent" Orientation="Horizontal">
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
