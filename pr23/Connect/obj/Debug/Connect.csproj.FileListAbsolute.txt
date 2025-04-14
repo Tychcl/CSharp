@@ -1,6 +1,0 @@
-C:\Users\Administrator\Desktop\Ych\PR\prak\pr23\Connect\bin\Debug\Connect.dll
-C:\Users\Administrator\Desktop\Ych\PR\prak\pr23\Connect\bin\Debug\Connect.pdb
-C:\Users\Administrator\Desktop\Ych\PR\prak\pr23\Connect\obj\Debug\Connect.csproj.AssemblyReference.cache
-C:\Users\Administrator\Desktop\Ych\PR\prak\pr23\Connect\obj\Debug\Connect.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\Ych\PR\prak\pr23\Connect\obj\Debug\Connect.dll
-C:\Users\Administrator\Desktop\Ych\PR\prak\pr23\Connect\obj\Debug\Connect.pdb
