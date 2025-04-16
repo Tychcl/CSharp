@@ -12,11 +12,11 @@ namespace pr26.Classes
         public string From { get; set; }
         public string To { get; set; }
         public int Price { get; set; }
-        public string TimeOut { get; set; }
-        public string TimeIn { get; set; }
+        public DateTime TimeOut { get; set; }
+        public DateTime TimeIn { get; set; }
 
         public Ticket() { }
-        public Ticket(int IdTicket, string from, string to, int Price, string TimeOut, string TimeIn)
+        public Ticket(int IdTicket, string from, string to, int Price, DateTime TimeOut, DateTime TimeIn)
         {
             this.Id = IdTicket;
             this.From = from;

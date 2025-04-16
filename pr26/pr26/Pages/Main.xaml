@@ -22,6 +22,16 @@
                 <TextBox x:Name="from"/>
                 <Label  Content="Куда:" Foreground="White" FontSize="10"/>
                 <TextBox x:Name="to"/>
+                <Grid>
+                    <StackPanel>
+                        <Label Content="Дата вылета:" VerticalAlignment="Center" Foreground="White"/>
+                        <DatePicker x:Name="TimeOut" VerticalAlignment="Center" HorizontalAlignment="Left" Height="30"/>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Right">
+                        <Label Content="Дата Прилета:" VerticalAlignment="Center" Foreground="White"/>
+                        <DatePicker x:Name="TimeIn" VerticalAlignment="Center" HorizontalAlignment="Left" Height="30"/>
+                    </StackPanel>
+                </Grid>
                 <Button Click="search" Content="Найти" Padding="7,0,7,0" HorizontalAlignment="Right" Margin="0,3,0,0" Background="Orange"/>
             </StackPanel>
         </Grid>

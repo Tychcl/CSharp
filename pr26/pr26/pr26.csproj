@@ -120,8 +120,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\Ticket.cs" />
-    <Compile Include="common\DBConnection.cs" />
-    <Compile Include="context\TicketsContext.cs" />
+    <Compile Include="Common\DBConnection.cs" />
+    <Compile Include="Context\TicketsContext.cs" />
     <Compile Include="Items\Ticket.xaml.cs">
       <DependentUpon>Ticket.xaml</DependentUpon>
     </Compile>

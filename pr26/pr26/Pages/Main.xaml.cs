@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -33,7 +34,19 @@ namespace pr26.Pages
 
         private void search(object sender, RoutedEventArgs e)
         {
-            MainWindow.main.frame.Navigate(new Pages.Ticket(from.Text, to.Text));
+            if (from.Text == default)
+            {
+                MessageBox.Show("Укажите место вылета");
+                return;
+            }
+            if (TimeIn.SelectedDate != null && TimeOut.SelectedDate != null && !String.IsNullOrEmpty(from.Text) && !String.IsNullOrEmpty(to.Text))
+                MainWindow.main.OpenPage(new Pages.Ticket(from.Text, to.Text, TimeOut.SelectedDate.Value, TimeIn.SelectedDate.Value));
+            if (TimeIn.SelectedDate == null && TimeOut.SelectedDate != null && !String.IsNullOrEmpty(from.Text) && !String.IsNullOrEmpty(to.Text))
+                MainWindow.main.OpenPage(new Pages.Ticket(from.Text, to.Text, TimeOut.SelectedDate.Value));
+            if (TimeIn.SelectedDate == null && TimeOut.SelectedDate == null && !String.IsNullOrEmpty(from.Text) && !String.IsNullOrEmpty(to.Text))
+                MainWindow.main.OpenPage(new Pages.Ticket(from.Text, to.Text));
+            if (TimeIn.SelectedDate == null && TimeOut.SelectedDate == null && !String.IsNullOrEmpty(from.Text) && String.IsNullOrEmpty(to.Text))
+                MainWindow.main.OpenPage(new Pages.Ticket(from.Text));
         }
     }
 }

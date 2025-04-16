@@ -13,7 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MySql;
+using MySql.Data.MySqlClient;
+using pr26.Context;
 
 namespace pr26
 {
@@ -23,7 +24,7 @@ namespace pr26
     public partial class MainWindow : Window
     {
         public static MainWindow main;
-        public List<Ticket> Tickets = new List<Ticket>();
+        public List<TicketsContext> Tickets = new List<TicketsContext>();
         public MainWindow()
         {
             InitializeComponent();
@@ -31,11 +32,9 @@ namespace pr26
             frame.Navigate(new Pages.Main());
         }
 
-        public void LoadTickets()
+        public void OpenPage(Page page)
         {
-            Tickets.Clear();
-            string con = "srever=localhost;port=3306;database=pr26;uid=root;pwd=root";
-            
+            frame.Navigate(page);
         }
     }
 }

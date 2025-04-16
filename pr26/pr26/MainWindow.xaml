@@ -4,8 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pr26"
-        mc:Ignorable="d" Title="Авиабилеты" MinHeight="300" MinWidth="300">
+        mc:Ignorable="d" Title="Авиабилеты" MinHeight="350" MinWidth="350" Height="350" Width="350">
     <Grid>
-        <Frame x:Name="frame"/>
+        <Frame x:Name="frame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
