@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\Clubs\Add.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Clubs\Elements\Item.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Clubs\Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Users\Add.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Users\Elements\Item.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Users\Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Clubs\Add.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Clubs\Elements\Item.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Clubs\Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

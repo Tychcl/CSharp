@@ -1,0 +1,24 @@
+﻿<Page x:Class="pr27.Pages.redacttheatre"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pr27.Pages"
+      mc:Ignorable="d" 
+      Title="redacttheatre">
+
+    <ScrollViewer Margin="10">
+        <StackPanel>
+            <Label Content="Название"/>
+            <TextBox x:Name="name"/>
+            <Label Content="Адрес"/>
+            <TextBox x:Name="adr"/>
+            <Label Content="Время работы"/>
+            <TextBox x:Name="time"/>
+            <Grid>
+                <Button Content="Назад" Click="back" HorizontalAlignment="Left"/>
+                <Button x:Name="btn" Content="Добавить" HorizontalAlignment="Right" Click="add"/>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
