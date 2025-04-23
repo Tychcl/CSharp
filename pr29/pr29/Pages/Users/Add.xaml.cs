@@ -1,6 +1,7 @@
 ﻿using pr29.Classes;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -20,7 +21,7 @@ namespace pr29.Pages.Users
     /// </summary>
     public partial class Add : Page
     {
-        ClubsContext all = new ClubsContext();
+        public ClubsContext all = new ClubsContext();
         Main M;
         Models.Users User;
         public Add(Main m, Models.Users u = null)
@@ -41,7 +42,7 @@ namespace pr29.Pages.Users
                 dur.Text = u.Duration.ToString();
                 RentTime.Text = u.RentStart.ToString("HH:mm");
                 FIO.Text = u.FIO;
-                ClubCB.SelectedItem = all.Clubs.Where(x => x.Id == u.Id).First().Name;
+                ClubCB.SelectedItem = all.Clubs.Where(x=>x.Id == User.Id).First().Name;
                 btn.Content = "Изменить";
             }
         }

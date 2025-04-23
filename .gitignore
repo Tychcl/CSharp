@@ -4,3 +4,9 @@
 .vs
 */.vs
 .vs/*
+*.rar
+*.7z
+*.zip
+*/*.rar
+*/*.7z
+*/*.zip
