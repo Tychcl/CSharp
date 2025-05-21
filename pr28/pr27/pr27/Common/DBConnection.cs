@@ -107,7 +107,7 @@ namespace pr27.Common
             }
             else
             {
-                var pc = Query($"INSERT INTO `{tabels.Order}`(`Id`, `Club`, `FIO`, `Time`) VALUES ({el.Id}, {el.Club}, '{el.FIO}', '{el.Time}`)", con);
+                var pc = Query($"INSERT INTO `{tabels.Order}`(`Id`, `Club`, `FIO`, `Time`) VALUES ({el.Id}, {el.Club}, '{el.FIO}', '{el.Time}')", con);
                 CloseConnection(con);
                 return pc != null;
             }

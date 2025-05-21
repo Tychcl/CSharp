@@ -12,6 +12,6 @@
             <StackPanel x:Name="Parent"/>
         </ScrollViewer>
         <Button x:Name="btn" Height="25" Content="Добавить" VerticalAlignment="Bottom" Margin="10"
-                HorizontalAlignment="Right" Width="100" Background="#ff46fd00" BorderBrush="#ff46fd00" Foreground="White"/>
+                HorizontalAlignment="Right" Width="100" Background="#ff46fd00" BorderBrush="#ff46fd00" Foreground="White" Click="badd"/>
     </Grid>
 </Page>

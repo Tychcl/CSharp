@@ -8,7 +8,7 @@
       Title="redact">
     <ScrollViewer Margin="10">
         <StackPanel>
-            <Label Content="Театр"/>
+            <Label Content="Клуб"/>
                 <ComboBox x:Name="cbox"/>
                 <Label Content="ФИО"/>
                 <TextBox x:Name="fio"/>

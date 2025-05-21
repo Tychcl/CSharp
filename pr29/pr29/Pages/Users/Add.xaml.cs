@@ -34,6 +34,10 @@ namespace pr29.Pages.Users
                 c.Tag = i.Id;
                 c.Content = i.Name;
                 ClubCB.Items.Add(c);
+                if (u != null && u.Club == i.Id)
+                {
+                    ClubCB.SelectedItem = c;
+                }
             }
             if (u != null)
             {
@@ -42,7 +46,6 @@ namespace pr29.Pages.Users
                 dur.Text = u.Duration.ToString();
                 RentTime.Text = u.RentStart.ToString("HH:mm");
                 FIO.Text = u.FIO;
-                ClubCB.SelectedItem = all.Clubs.Where(x=>x.Id == User.Id).First().Name;
                 btn.Content = "Изменить";
             }
         }
@@ -50,8 +53,7 @@ namespace pr29.Pages.Users
         private void EditClub(object sender, RoutedEventArgs e)
         {
             DateTime dt = new DateTime();
-            DateTime.TryParse(RentStart.Text, out dt);
-            dt = dt.Add(TimeSpan.Parse(this.RentStart.Text));
+            DateTime.TryParse($"{RentStart.Text} {RentTime.Text}", out dt);
 
             if(this.User == null)
             {

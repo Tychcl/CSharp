@@ -1,0 +1,46 @@
+﻿<Window x:Class="pr32.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr32"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="800">
+    <Grid>
+        <!-- Меню -->
+        <Menu Height="25" VerticalAlignment="Top">
+            <!-- Элемент меню "Пластинки" -->
+            <MenuItem Header="Пластинки" Height="25">
+                <!-- Элемент меню "Список" -->
+                <MenuItem Header="Список" Click="OpenRecordList"></MenuItem>
+                <!-- Элемент меню "Добавить" -->
+                <MenuItem Header="Добавить" Click="OpenRecordAdd"></MenuItem>
+                <!-- Элемент меню "Экспортировать" -->
+                <MenuItem Header="Экспортировать" Click="ExportRecord"></MenuItem>
+            </MenuItem>
+
+            <!-- Элемент меню "Поставщики" -->
+            <MenuItem Header="Поставщики">
+                <!-- Элемент меню "Список поставщиков" -->
+                <MenuItem Header="Список" Click="OpenManufacturersList"></MenuItem>
+                <!-- Элемент меню "Добавить поставщиков" -->
+                <MenuItem Header="Добавить" Click="OpenManufacturersAdd"></MenuItem>
+            </MenuItem>
+
+            <!-- Элемент меню "Поставки" -->
+            <MenuItem Header="Поставки">
+                <!-- Элемент меню "Список поставок" -->
+                <MenuItem Header="Список" Click="OpenSupplyList"></MenuItem>
+                <!-- Элемент меню "Добавить поставку" -->
+                <MenuItem Header="Добавить" Click="OpenSupplyAdd"></MenuItem>
+            </MenuItem>
+
+            <!-- Элемент меню "Состояния" -->
+            <MenuItem Header="Состояния">
+                <MenuItem Header="Список" Click="OpenStateList"/>
+                <MenuItem Header="Добавить" Click="OpenStateAdd"/>
+            </MenuItem>
+        </Menu>
+        <Frame x:Name="frame" NavigationUIVisibility="Hidden" Margin="0,25,0,0"/>
+    </Grid>
+</Window>
