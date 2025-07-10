@@ -60,8 +60,12 @@ namespace pr32.Pages.Records
         public void LoadAllManufacture()
         {
             tbManufacturer.Items.Clear();
-            foreach (var manufacturer in AllManufacturers)
-                tbManufacturer.Items.Add(manufacturer.Name);
+            foreach (Classes.Manufacturer manufacturer in AllManufacturers)
+            {
+                ComboBoxItem i = new ComboBoxItem();
+                i.Content = manufacturer.Name;
+                tbManufacturer.Items.Add(i);
+            }
             tbManufacturer.Items.Add("Выберите ...");
             tbManufacturer.SelectedIndex = tbManufacturer.Items.Count - 1;
         }
@@ -70,7 +74,7 @@ namespace pr32.Pages.Records
             List<Classes.Record> FilterRecords = new List<Classes.Record>();
             if (tbManufacturer.SelectedIndex != tbManufacturer.Items.Count - 1)
                 FilterRecords = AllRecords.Where(x => x.IdManufacturer ==
-                AllManufacturers.Where(y => y.Name == tbManufacturer.SelectedItem.ToString()).First().Id).ToList();
+                AllManufacturers.Where(y => y.Name == (tbManufacturer.SelectedItem as ComboBoxItem).Content).First().Id).ToList();
             else
                 FilterRecords = AllRecords.ToList();
 
@@ -110,5 +114,6 @@ namespace pr32.Pages.Records
         {
             RecordsFilter();
         }
+
     }
 }

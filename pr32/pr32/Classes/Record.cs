@@ -70,7 +70,7 @@ namespace pr32.Classes
                 // Добавление новой записи
                 DBConnection.Connection(
                     "INSERT INTO [dbo].[Record] " +
-                    "([Name], [Year], [Format], [Size], [IdManufacturer], [Price], [Condition], [Description]) " +
+                    "([Name], [Year], [Format], [Size], [IdManufacturer], [Price], [IdState], [Description]) " +
                     $"VALUES (N'{Name}', {Year}, {Format}, {Size}, {IdManufacturer}, {priceString}, {idState}, N'{Description}')");
 
                 // Получаем ID добавленной записи
@@ -95,7 +95,7 @@ namespace pr32.Classes
                     $"[Size] = {Size}, " +
                     $"[IdManufacturer] = {IdManufacturer}, " +
                     $"[Price] = {priceString}, " +
-                    $"[Condition] = {idState}, " +
+                    $"[IdState] = {idState}, " +
                     $"[Description] = N'{Description}' " +
                     $"WHERE [Id] = {Id}");
             }

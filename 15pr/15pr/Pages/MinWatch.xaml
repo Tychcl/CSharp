@@ -1,0 +1,21 @@
+﻿<Page x:Class="_15pr.Pages.MinWatch"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_15pr.Pages"
+      mc:Ignorable="d" 
+      Title="MinWatch">
+    <Grid>
+        <StackPanel>
+            <StackPanel x:Name="TB" Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox x:Name="hoursTB" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
+                <Label Content=":" Foreground="White" FontSize="48" BorderThickness="0" Background="DarkCyan" FontWeight="Medium" Padding="0,0,0,0"/>
+                <TextBox x:Name="minuteTB" MaxLength="2" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
+                <Label Content=":" Foreground="White" FontSize="48" BorderThickness="0" Background="DarkCyan" FontWeight="Medium" Padding="0,0,0,0"/>
+                <TextBox x:Name="secondTB" MaxLength="2" KeyDown="upd" KeyUp="upd" Text="00" FontSize="48" Foreground="White" BorderThickness="0" Background="DarkCyan"/>
+            </StackPanel>
+            <Button x:Name="start" Click="StartStopwatch" Content="Начать" Width="150" Height="30" FontSize="20" Background="White" Foreground="DarkCyan" />
+        </StackPanel>
+    </Grid>
+</Page>

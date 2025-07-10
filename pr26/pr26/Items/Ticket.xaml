@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="pr26.Items.Ticket"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:pr26.Items"
+             mc:Ignorable="d" MinWidth="300" Background="LightGray">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MaxWidth="80"/>
+            <ColumnDefinition />
+            <ColumnDefinition/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="0">
+            <Label x:Name="price" Content="99999 P" HorizontalAlignment="Center"/>
+            <Button Content="Подробнее" HorizontalAlignment="Center" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" >
+            <Label x:Name="ftime" Content="00:00" FontSize="14" FontWeight="DemiBold" HorizontalAlignment="Center"/>
+            <Label x:Name="from" Content="from" HorizontalAlignment="Center"/>
+            <Label x:Name="fdate" Content="date" HorizontalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Grid.Column="2" VerticalAlignment="Center">
+            <Grid>
+                <Label Content="✈" HorizontalAlignment="Left"/>
+                <Label x:Name="path" Content="00:00" HorizontalAlignment="Center"/>
+                <Label Content="✈" HorizontalAlignment="Right" RenderTransformOrigin="0.5,0.5">
+                    <Label.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Label.RenderTransform>
+                </Label>
+            </Grid>
+            <Rectangle Height="5" Fill="#FF737373" MinWidth="100" Margin="5,0,5,0"/>
+        </StackPanel>
+        <StackPanel Grid.Column="3">
+            <Label x:Name="ttime" Content="00:00" FontSize="14" FontWeight="DemiBold" HorizontalAlignment="Center"/>
+            <Label x:Name="to" Content="to" HorizontalAlignment="Center"/>
+            <Label x:Name="tdate" Content="date" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

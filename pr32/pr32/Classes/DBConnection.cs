@@ -18,7 +18,7 @@ namespace pr32.Classes
                 return ConnectionString;
         }
         public static string ChangeableConnectionString = "";
-        private static readonly string ConnectionString = "server=student.permaviat.ru;Trusted_Connection=No;DataBase=vinylRecords;User=ISP_22_1_16;PWD=6GdNkdTL69su_";
+        private static readonly string ConnectionString = "server=student.permaviat.ru;Trusted_Connection=No;DataBase=base2_ISP_22_1_4;User=ISP_22_1_4;PWD=0FHSdqSJsEG1_";
 
         public static DataTable Connection(string SQL)
         {

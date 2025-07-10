@@ -44,7 +44,6 @@ namespace pr32.Classes
             return manufacturers;
         }
 
-        /// <summary> Сохраняет поставщика в БД (добавление или обновление) </summary>
         public void Save(bool isUpdate = false)
         {
             if (!isUpdate)

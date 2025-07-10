@@ -1,0 +1,12 @@
+D:\prak\pr24\DataBase\bin\Debug\DataBase.dll
+D:\prak\pr24\DataBase\bin\Debug\DataBase.pdb
+D:\prak\pr24\DataBase\obj\Debug\DataBase.csproj.AssemblyReference.cache
+D:\prak\pr24\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+D:\prak\pr24\DataBase\obj\Debug\DataBase.dll
+D:\prak\pr24\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Administrator\Desktop\prak\pr24\DataBase\obj\Debug\DataBase.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\prak\pr24\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\prak\pr24\DataBase\bin\Debug\DataBase.dll
+C:\Users\Administrator\Desktop\prak\pr24\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Administrator\Desktop\prak\pr24\DataBase\obj\Debug\DataBase.dll
+C:\Users\Administrator\Desktop\prak\pr24\DataBase\obj\Debug\DataBase.pdb

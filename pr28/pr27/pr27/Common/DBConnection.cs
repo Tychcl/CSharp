@@ -26,7 +26,7 @@ namespace pr27.Common
         {
             try
             {
-                MySqlConnection sqlConnection = new MySqlConnection("server=127.0.0.1;uid=root;pwd=;port=3306;database=pr28");
+                MySqlConnection sqlConnection = new MySqlConnection("Server=127.0.0.1; Port=3306; Database=pr28; Uid=root; Pwd=;");
                 sqlConnection.Open();
                 return sqlConnection;
             }
@@ -46,7 +46,7 @@ namespace pr27.Common
         public static void CloseConnection(MySqlConnection sqlConnection)
         {
             sqlConnection.Close();
-            //MySqlConnection.ClearPool(sqlConnection);
+            MySqlConnection.ClearPool(sqlConnection);
         }
 
         public static void GetData(tabels tabel)

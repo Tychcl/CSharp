@@ -1,0 +1,55 @@
+﻿<Page x:Class="pr16.Pages.Education"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pr16.Pages"
+      mc:Ignorable="d" 
+        d:DesignHeight="410" d:DesignWidth="792"
+  Title="Education">
+
+    <Grid Background="#F8F9FA">
+        <Grid Height="60" VerticalAlignment="Top" Background="White">
+            <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Img/logo.png"/>
+            <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
+            <Label Content="Пермкого авиационного техникума им. А.Д.Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Margin="0,60,0,0">
+            <Label Content="Сведения об обзазовании" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="База:" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top"/>
+            <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,47,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+            <Grid x:Name="base1" Margin="0,70,0,0">
+                <RadioButton Content="9 классов" HorizontalAlignment="Left" Margin="22,0,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="11 классов" HorizontalAlignment="Left" Margin="22,15,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="СПО" HorizontalAlignment="Left" Margin="22,30,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="ВПО" HorizontalAlignment="Left" Margin="22,45,0,0" VerticalAlignment="Top"/>
+            </Grid>
+            <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,140,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+            <Grid x:Name="base2" Margin="0,165,0,0">
+                <RadioButton Content="Аттестат" HorizontalAlignment="Left" Margin="22,0,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Диплом" HorizontalAlignment="Left" Margin="22,15,0,0" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid Height="60" Margin="0,200,0,0" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Серия и номер документа об образовании:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+                <Label Content="Средний балл(до сотых):" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                <TextBox x:Name="serialAndNumber" Height="25" Margin="10,25,10,10"/>
+                <TextBox x:Name="avgMark" Height="25" Margin="10,25,10,10" Grid.Column="1"/>
+            </Grid>
+            <Label Content="Прикрепите сканы страниц документа об обзазовании с ФИО, наименованием образовательной организации и оценками" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top"/>
+            <Label Content="(Формат документов должен быть PNG, JPEG или PDF, а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="20,270,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+            <Grid Height="25" VerticalAlignment="Top" Margin="0,290,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="pathPhoto" Grid.Column="0" Height="25" Margin="10,0,0,0"/>
+                <Button x:Name="choose" Click="chooseofd" Grid.Column="1" Content="Выбрать..." Margin="5,0,10,0"/>
+            </Grid>
+            <Button Click="NextPage" Content="Продолжить" Margin="0,0,10,5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="25" Width="150"/>
+        </Grid>
+    </Grid>
+</Page>

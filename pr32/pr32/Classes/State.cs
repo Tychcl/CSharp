@@ -32,11 +32,10 @@ namespace pr32.Classes
 
         public void Save(bool Update = false)
         {
-            if (!Update == false)
+            if (Update == false)
             {
                 Classes.DBConnection.Connection(
-                "INSERT INTO [dbo].[State]([Name], [Subname], [Description]) " +
-                $"VALUES (N'{this.Name}', N'{this.Subname}', N'{this.Description}');");
+                $"INSERT INTO [dbo].[State]([Name], [Subname], [Description]) VALUES (N'{this.Name}', N'{this.Subname}', N'{this.Description}')");
 
 
 
@@ -48,9 +47,9 @@ namespace pr32.Classes
             {
                 Classes.DBConnection.Connection(
                 "UPDATE [dbo].[State] SET " +
-                $"{Name} = N'{this.Name}', " +
-                $"{Subname} = N'{this.Subname}', " +
-                $"{Description} = N'{this.Description}'" +
+                $"[Name]= N'{this.Name}', " +
+                $"[Subname] = N'{this.Subname}', " +
+                $"[Description] = N'{this.Description}'" +
                 $"WHERE [Id] = {this.Id};");
             }
         }

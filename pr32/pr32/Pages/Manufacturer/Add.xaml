@@ -90,9 +90,7 @@
                           Margin="10,26,10,0" 
                           Height="25" 
                           VerticalAlignment="Top" 
-                          Grid.Column="1"
-                          DisplayMemberPath="Name"
-                          SelectedValuePath="Id">
+                          Grid.Column="1">
                         <ComboBox.Effect>
                             <DropShadowEffect BlurRadius="5" 
                                          Color="#40000000" 

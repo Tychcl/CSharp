@@ -1,0 +1,35 @@
+﻿<Page x:Class="pr24.Pages.Redact.Fond"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pr24.Pages.Redact"
+      mc:Ignorable="d" 
+      Title="Fond" d:MinWidth="150">
+    <Grid Background="LightGray">
+        <ScrollViewer>
+            <StackPanel Background="DarkGray" Margin="10,10,10,0" VerticalAlignment="Top">
+                <Label Content="Название" HorizontalAlignment="Left"/>
+                <TextBox x:Name="name" Margin="5,0,5,0" Height="22"/>
+                <Label Content="Библиотека" HorizontalAlignment="Left"/>
+                <ComboBox x:Name="lib" Margin="5,0,5,0" Height="22"/>
+                <Label Content="Книги" HorizontalAlignment="Left"/>
+                <TextBox x:Name="books" Margin="5,0,5,0" Height="22" KeyDown="check"/>
+                <Label Content="Статьи" HorizontalAlignment="Left"/>
+                <TextBox x:Name="papers" Margin="5,0,5,0" Height="22" KeyDown="check"/>
+                <Label Content="Журналы" HorizontalAlignment="Left"/>
+                <TextBox x:Name="magazines" Margin="5,0,5,0" Height="22" KeyDown="check"/>
+                <Label Content="Сборники" HorizontalAlignment="Left"/>
+                <TextBox x:Name="collections" Margin="5,0,5,0" Height="22" KeyDown="check"/>
+                <Label Content="Диссертации" HorizontalAlignment="Left"/>
+                <TextBox x:Name="dissertations" Margin="5,0,5,0" Height="22" KeyDown="check"/>
+                <Label Content="Отчеты" HorizontalAlignment="Left"/>
+                <TextBox x:Name="reports" Margin="5,0,5,0" Height="22" KeyDown="check"/>
+                <Grid>
+                    <Button x:Name="btn" Content="Добавить" Click="add" Height="22" Margin="0,15,5,10" HorizontalAlignment="Right" MinWidth="60"/>
+                    <Button Content="Назад" Height="22" Click="back" Margin="5,15,0,10" HorizontalAlignment="Left" MinWidth="60"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

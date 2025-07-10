@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace pr33
@@ -14,4 +10,5 @@ namespace pr33
     public partial class App : Application
     {
     }
+
 }

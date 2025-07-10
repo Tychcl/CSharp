@@ -26,17 +26,24 @@ namespace pr32.Pages.Manufacturer
         public Add(Classes.Manufacturer changeManufacturer = null)
         {
             InitializeComponent();
-            foreach (var Countrie in AllCountries)
-                tbCountry.Items.Add(Countrie.Name);
-            if (AllCountries.Count() > 0)
-                tbCountry.SelectedIndex = 0;
+            foreach (Classes.Country Countrie in AllCountries)
+            {
+                ComboBoxItem i = new ComboBoxItem();
+                i.Content = Countrie.Name;
+                i.Tag = Countrie.Id;
+                tbCountry.Items.Add(i);
+                if (changeManufacturer != null && changeManufacturer.CountryCode == Countrie.Id)
+                {
+                    tbCountry.SelectedItem = i;
+                }
+                }
+                
             if (changeManufacturer != null)
             {
                 this.changeManufacturer = changeManufacturer;
                 tbName.Text = changeManufacturer.Name;
                 tbPhone.Text = changeManufacturer.Phone;
                 tbEmail.Text = changeManufacturer.Mail;
-                tbCountry.SelectedIndex = AllCountries.ToList().FindIndex(x => x.Id == changeManufacturer.CountryCode);
                 btnSave.Content = "Изменить";
             }
         }
@@ -62,7 +69,7 @@ namespace pr32.Pages.Manufacturer
                                         Name = tbName.Text,
                                         Phone = tbPhone.Text,
                                         Mail = tbEmail.Text,
-                                        CountryCode = AllCountries.Where(x => x.Name == tbCountry.SelectedItem.ToString()).First().Id
+                                        CountryCode = AllCountries.Where(x => x.Name == (tbCountry.SelectedItem as ComboBoxItem).Content).First().Id
 
                                     };
 
@@ -75,7 +82,7 @@ namespace pr32.Pages.Manufacturer
                                     changeManufacturer.Name = tbName.Text;
                                     changeManufacturer.Phone = tbPhone.Text;
                                     changeManufacturer.Mail = tbEmail.Text;
-                                    changeManufacturer.CountryCode = AllCountries.Where(x => x.Name == tbCountry.SelectedItem.ToString()).First().Id;
+                                    changeManufacturer.CountryCode = Convert.ToInt32((tbCountry.SelectedItem as ComboBoxItem).Tag);
                                     changeManufacturer.Save(true);
                                     MessageBox.Show($"Поставщик {changeManufacturer.Name} успешно изменен.", "Уведомление");
                                 }

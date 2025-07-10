@@ -1,0 +1,44 @@
+﻿<Page x:Class="pr17.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pr17"
+      mc:Ignorable="d" 
+      d:DesignHeight="410" d:DesignWidth="782"
+Title="Main">
+    <Grid Background="White">
+        <Grid Margin="0,0,0.4,0" Background="#FFDD3333" Height="50" VerticalAlignment="Top">
+            <Grid.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="#FFDD3333"/>
+                    <Setter Property="BorderBrush" Value="White"/>
+                </Style>
+            </Grid.Resources>
+            <Image x:Name="iconApp" Source="/Image/icon.png" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="30"/>
+            <Label Content="Меню" HorizontalAlignment="Left" Margin="40,10,0,0" VerticalAlignment="Top" Height="30" Foreground="White" FontWeight="Bold" FontSize="16"/>
+            <Button x:Name="allPrice" Click="Page" Content="Заказать" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25"/>
+            <Button Content="Микс X" Margin="0,10,114.6,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25"/>
+        </Grid>
+        <Grid Margin="0,50,0.4,-0.4">
+            <Grid.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FFDD3333"/>
+                    <Setter Property="Foreground" Value="#FFFFFFFF"/>
+                    <Setter Property="BorderBrush" Value="#FFDD3333"/>
+                </Style>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="#FFDD3333"/>
+                    <Setter Property="BorderBrush" Value="White"/>
+                </Style>
+            </Grid.Resources>
+            <ScrollViewer Margin="10,10,10,10">
+                <StackPanel x:Name="parrent">
+                    
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\ycheba\MDK0101\CSharpPrak\pr32\pr32\obj\Debug\
+E:\ycheba\MDK0101\CSharpPrak\pr32\pr32\obj\Debug\
 pr32
 none
 false
 DEBUG;TRACE
-G:\ycheba\MDK0101\CSharpPrak\pr32\pr32\App.xaml
+E:\ycheba\MDK0101\CSharpPrak\pr32\pr32\App.xaml
 13-556557751
 
-24-699756079
+231382332539
 13-1310406943
 MainWindow.xaml;Pages\Manufacturer\Add.xaml;Pages\Manufacturer\Elements\Manufacturer.xaml;Pages\Manufacturer\Main.xaml;Pages\Records\Add.xaml;Pages\Records\Elements\Records.xaml;Pages\Records\Main.xaml;Pages\State\Add.xaml;Pages\State\Elements\State.xaml;Pages\State\Main.xaml;Pages\Supply\Add.xaml;Pages\Supply\Elements\Supply.xaml;Pages\Supply\Main.xaml;
 
-True
+False
 

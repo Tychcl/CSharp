@@ -11,6 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Images\delete.png" />
+    <None Remove="Images\pc.jpg" />
+    <None Remove="Images\update.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Page Remove="Pages\Clubs\Club.xaml" />
   </ItemGroup>
 
@@ -21,6 +27,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\pc.jpg" />
+    <Resource Include="Images\update.png" />
   </ItemGroup>
 
   <ItemGroup>
